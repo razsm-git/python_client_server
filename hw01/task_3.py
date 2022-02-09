@@ -3,10 +3,13 @@
 
 source = ['attribute', 'класс', 'функция', 'type']
 
+
 def info(some_list):
     for i in some_list:
-        i = bytes(i, encoding='utf-8')
-        print(f"Значение: {i}, тип данных: {type(i)}, длина: {len(i)}")
+        try:
+            bytes(i, encoding='ascii')
+        except UnicodeError as ex:
+            print(f"Значение '{i}' неевозможно записать в байтовом виде, тип данных: {type(i)}, длина: {len(i)}")
 
 
 info(source)
