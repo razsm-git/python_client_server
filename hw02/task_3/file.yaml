@@ -1,0 +1,9 @@
+cars:
+- bmw
+- audi
+- jeep
+cars_free: 3
+price:
+  audi: 11000€
+  bmw: 9500€
+  jeep: 8210€
