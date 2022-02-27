@@ -1,0 +1,91 @@
+2022-02-27 17:31:31,139       INFO client               Клиент запущен
+2022-02-27 17:31:31,152      DEBUG client               Номер порта 7777 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,152      DEBUG client               Установлен порт 7777
+2022-02-27 17:31:31,152      DEBUG client               Ip аддрес сервера 127.0.0.1 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,159       INFO client               Клиент запущен
+2022-02-27 17:31:31,162       INFO client               Клиент запущен
+2022-02-27 17:31:31,162      DEBUG client               Номер порта 7777 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,164      DEBUG client               Установлен порт 7777
+2022-02-27 17:31:31,164      DEBUG client               Ip аддрес сервера 127.0.0.1 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,165      DEBUG client               Номер порта 7777 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,165      DEBUG client               Установлен порт 7777
+2022-02-27 17:31:31,165      DEBUG client               Ip аддрес сервера 127.0.0.1 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,174      DEBUG decor                Вызвана функция arg_parser с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,174       INFO client               Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-02-27 17:31:31,174       INFO client               Создан клиентский сокет, успешно подключен к серверу 127.0.0.1:7777
+2022-02-27 17:31:31,175      DEBUG client               Начат процесс созадния запроса
+2022-02-27 17:31:31,175      DEBUG client               Запрос {'action': 'presence', 'time': 1645972291.1750364, 'user': {'account_name': 'Guest'}} создан
+2022-02-27 17:31:31,175      DEBUG decor                Вызвана функция create_presence с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,175      DEBUG client               Запрос приветствия создан
+2022-02-27 17:31:31,176      DEBUG decor                Вызвана функция send_message с аргументами args: (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15161), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1645972291.1750364, 'user': {'account_name': 'Guest'}}), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,176      DEBUG client               Отправляем сообщение на сервер 127.0.0.1:7777
+2022-02-27 17:31:31,176      DEBUG client               Попытка аналлиза ответного сообщения...
+2022-02-27 17:31:31,179       INFO client               Клиент запущен
+2022-02-27 17:31:31,182      DEBUG client               Номер порта 7777 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,182      DEBUG client               Установлен порт 7777
+2022-02-27 17:31:31,182      DEBUG client               Ip аддрес сервера 127.0.0.1 передан в аргументах при запуске модуля
+2022-02-27 17:31:31,189      DEBUG decor                Вызвана функция arg_parser с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,189      DEBUG decor                Вызвана функция arg_parser с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,189       INFO client               Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-02-27 17:31:31,189       INFO client               Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-02-27 17:31:31,190       INFO client               Создан клиентский сокет, успешно подключен к серверу 127.0.0.1:7777
+2022-02-27 17:31:31,190       INFO client               Создан клиентский сокет, успешно подключен к серверу 127.0.0.1:7777
+2022-02-27 17:31:31,190      DEBUG client               Начат процесс созадния запроса
+2022-02-27 17:31:31,190      DEBUG client               Начат процесс созадния запроса
+2022-02-27 17:31:31,190      DEBUG client               Запрос {'action': 'presence', 'time': 1645972291.1900368, 'user': {'account_name': 'Guest'}} создан
+2022-02-27 17:31:31,190      DEBUG client               Запрос {'action': 'presence', 'time': 1645972291.1900368, 'user': {'account_name': 'Guest'}} создан
+2022-02-27 17:31:31,191      DEBUG decor                Вызвана функция create_presence с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,191      DEBUG decor                Вызвана функция create_presence с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,191      DEBUG client               Запрос приветствия создан
+2022-02-27 17:31:31,191      DEBUG client               Запрос приветствия создан
+2022-02-27 17:31:31,191      DEBUG decor                Вызвана функция send_message с аргументами args: (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15162), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1645972291.1900368, 'user': {'account_name': 'Guest'}}), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,191      DEBUG client               Отправляем сообщение на сервер 127.0.0.1:7777
+2022-02-27 17:31:31,191      DEBUG client               Попытка аналлиза ответного сообщения...
+2022-02-27 17:31:31,191      DEBUG decor                Вызвана функция get_message с аргументами args: (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15161), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,191      DEBUG client               Запущен процесс анализа полученного сообщения {'response': 200}
+2022-02-27 17:31:31,192      DEBUG client               Код 200, всё хорошо
+2022-02-27 17:31:31,192      DEBUG decor                Вызвана функция process_ans с аргументами args: ({'response': 200},), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,192      DEBUG decor                Вызвана функция send_message с аргументами args: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15163), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1645972291.1900368, 'user': {'account_name': 'Guest'}}), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,192      DEBUG client               Отправляем сообщение на сервер 127.0.0.1:7777
+2022-02-27 17:31:31,192      DEBUG client               Попытка аналлиза ответного сообщения...
+2022-02-27 17:31:31,193      DEBUG client               Режим работы - listen
+2022-02-27 17:31:31,194      DEBUG decor                Вызвана функция get_message с аргументами args: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15163), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,194      DEBUG client               Запущен процесс анализа полученного сообщения {'response': 200}
+2022-02-27 17:31:31,194      DEBUG client               Код 200, всё хорошо
+2022-02-27 17:31:31,194      DEBUG decor                Вызвана функция process_ans с аргументами args: ({'response': 200},), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,194      DEBUG client               Сообщение проаналлизировано
+2022-02-27 17:31:31,195      DEBUG client               Режим работы - send
+2022-02-27 17:31:31,196      DEBUG decor                Вызвана функция get_message с аргументами args: (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15162), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,196      DEBUG client               Запущен процесс анализа полученного сообщения {'response': 200}
+2022-02-27 17:31:31,196      DEBUG client               Код 200, всё хорошо
+2022-02-27 17:31:31,197      DEBUG decor                Вызвана функция process_ans с аргументами args: ({'response': 200},), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,197      DEBUG client               Сообщение проаналлизировано
+2022-02-27 17:31:31,198      DEBUG client               Режим работы - send
+2022-02-27 17:31:31,204      DEBUG decor                Вызвана функция arg_parser с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,204       INFO client               Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-02-27 17:31:31,205       INFO client               Создан клиентский сокет, успешно подключен к серверу 127.0.0.1:7777
+2022-02-27 17:31:31,205      DEBUG client               Начат процесс созадния запроса
+2022-02-27 17:31:31,205      DEBUG client               Запрос {'action': 'presence', 'time': 1645972291.2050357, 'user': {'account_name': 'Guest'}} создан
+2022-02-27 17:31:31,206      DEBUG decor                Вызвана функция create_presence с аргументами args: (), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,206      DEBUG client               Запрос приветствия создан
+2022-02-27 17:31:31,207      DEBUG decor                Вызвана функция send_message с аргументами args: (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15164), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1645972291.2050357, 'user': {'account_name': 'Guest'}}), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,207      DEBUG client               Отправляем сообщение на сервер 127.0.0.1:7777
+2022-02-27 17:31:31,207      DEBUG client               Попытка аналлиза ответного сообщения...
+2022-02-27 17:31:31,721      DEBUG decor                Вызвана функция get_message с аргументами args: (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15164), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:31:31,721      DEBUG client               Запущен процесс анализа полученного сообщения {'response': 200}
+2022-02-27 17:31:31,721      DEBUG client               Код 200, всё хорошо
+2022-02-27 17:31:31,722      DEBUG decor                Вызвана функция process_ans с аргументами args: ({'response': 200},), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:31:31,722      DEBUG client               Сообщение проаналлизировано
+2022-02-27 17:31:31,722      DEBUG client               Режим работы - listen
+2022-02-27 17:33:13,428      DEBUG client               Сформирован словарь сообщения: {'action': 'message', 'time': 1645972393.4287944, 'account_name': 'Guest', 'mess_text': 'Hello'}
+2022-02-27 17:33:13,428      DEBUG decor                Вызвана функция create_message с аргументами args: (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15162), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:33:13,429      DEBUG decor                Вызвана функция send_message с аргументами args: (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15162), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1645972393.4287944, 'account_name': 'Guest', 'mess_text': 'Hello'}), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:33:13,430      DEBUG client               Режим работы - send
+2022-02-27 17:33:13,850      DEBUG decor                Вызвана функция get_message с аргументами args: (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15161), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:33:13,851       INFO client               Получено сообщение от пользователя Guest: Hello
+2022-02-27 17:33:13,854      DEBUG decor                Вызвана функция message_from_server с аргументами args: ({'action': 'message', 'sender': 'Guest', 'time': 1645972393.8472376, 'mess_text': 'Hello'},), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:33:13,855      DEBUG client               Режим работы - listen
+2022-02-27 17:33:13,857      DEBUG decor                Вызвана функция get_message с аргументами args: (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 15164), raddr=('127.0.0.1', 7777)>,), kwargs: {} из модуля: common.utils.Вызов из функции: main
+2022-02-27 17:33:13,858       INFO client               Получено сообщение от пользователя Guest: Hello
+2022-02-27 17:33:13,858      DEBUG decor                Вызвана функция message_from_server с аргументами args: ({'action': 'message', 'sender': 'Guest', 'time': 1645972393.8472376, 'mess_text': 'Hello'},), kwargs: {} из модуля: __main__.Вызов из функции: main
+2022-02-27 17:33:13,858      DEBUG client               Режим работы - listen
